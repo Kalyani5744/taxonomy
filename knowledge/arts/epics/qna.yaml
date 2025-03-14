@@ -1,0 +1,56 @@
+version: 3
+domain: Mythological Stories
+created_by: Kalyani5744
+seed_examples:
+  - context: |
+        According to the Puranas, a king named Hiranyakashipu, like many asuras, wished to be immortal. To fulfill this desire, he performed the required tapas until he was granted a boon by Brahma. Hiranyakashipu was granted five wishes: that he would not die at the hands of any being created by Brahma, that he would not perish inside or outside, by day or night, by any weapon, on the earth or in the sky, by men or beasts, devas or asuras, that he be unequalled, that he possess undiminishing power, and that he be the one ruler of all creation.
+    questions_and_answers:
+      - question: |
+           Who granted the boon to Hiranyakashipu?
+        answer: |
+           Lord Brahma granted the boon to Hiranyakashipu
+      - question: | What were the conditions of Hiranyakashipu's boon regarding his death?
+        answer: | He would not die inside or outside, by day or night, by any weapon, on the earth or in the sky, by men or beasts, or by devas or asuras.
+      - question: | What did Hiranyakashipu wish for besides immortality?
+        answer: | He wished to be unequalled, to possess undiminishing power, and to be the one ruler of all creation.
+  - context: | He punished and killed anyone all those who objected to his supremacy. His son Prahlada, raised a Vaishnava, refused to worship his father as a deity. He continued believing in and worshipping Vishnu. This infuriated Hiranyakashipu, and he made various attempts to kill Prahlada. During one attempt on Prahlada's life, King Hiranyakashipu's sister, Holika, offered her help. According to the Vishnu Purana, Holika told her brother that due to a boon she had received, she was invulnerable to fire. Arrangements were made to have Prahlada sit upon the lap of his aunt, atop a burning pyre.
+    questions_and_answers:
+      - question: | Why was Hiranyakashipu angry with his son Prahlada?
+        answer: | Hiranyakashipu was angry because Prahlada refused to worship him as a deity and continued to worship Vishnu.
+      - question: | How did Holika plan to help Hiranyakashipu kill Prahlada?
+        answer: | Holika planned to sit with Prahlada on her lap atop a burning pyre, believing she was invulnerable to fire due to a boon.
+      - question: | What was Holika's boon according to the Vishnu Purana?
+        answer: | Holika had a boon that made her invulnerable to fire.
+  - context: | However, as Prahlada chanted the name of Vishnu, he escaped unscathed, while Holika was incinerated. In a variation of this Puranic legend, Hiranyakashipu had Holika don her scarf or her fireproof garment, so that his son may perish, and she may be protected atop the pyre. However, as the fire roared, the garment flew from Holika and covered Prahlada. Holika burnt to death, and Prahlada came out unharmed.
+    questions_and_answers:
+      - question: How did Prahlada survive the fire?
+        answer: | Prahlada survived by chanting the name of Vishnu, and divine intervention saved him from the flames.
+      - question: | What happened to Holika in the fire?
+        answer: | Holika was incinerated in the fire while Prahlada remained unharmed.
+      - question: | How did Holika’s fireproof garment fail to protect her?
+        answer: | As the fire roared, the garment flew from Holika and covered Prahlada, protecting him instead while she burned to death.
+  - context: | Vishnu appeared in the form of Narasimha (a half-human and half-lion avatara, one not created by Brahma), at dusk (neither day nor night), took Hiranyakashipu to his dwelling's threshold (neither indoors nor outdoors), placed him upon his lap (neither land, water, nor air), and then slew the king with his claws (not a weapon).
+    questions_and_answers:
+      - question: | In what form did Vishnu appear to defeat Hiranyakashipu?
+        answer: | Vishnu appeared in the form of Narasimha, a half-human and half-lion avatara.
+      - question: | How did Vishnu ensure that Hiranyakashipu’s boon was ineffective?
+        answer: | Vishnu killed Hiranyakashipu in a way that bypassed his boon—at dusk (neither day nor night), on a threshold (neither indoors nor outdoors), on his lap (neither land, water, nor air), and using his claws (not a weapon).
+  - context: | In this manner, the comprehensive boon of Hiranyakashipu was no longer useful. Prahlada and the races of the three worlds were thus set free from the tyranny of Hiranyakashipu, and cosmic order was restored.
+    questions_and_answers:
+      - question: | Why was Hiranyakashipu’s boon no longer useful?
+        answer: | Hiranyakashipu’s boon was ineffective because Vishnu, in the form of Narasimha, bypassed all the conditions of the boon while killing him.
+      - question: | What happened to Prahlada and the three worlds after Hiranyakashipu’s death?
+        answer: | Prahlada and the races of the three worlds were freed from Hiranyakashipu’s tyranny.
+      - question: | What was restored after the death of Hiranyakashipu?
+        answer: | Cosmic order was restored after Hiranyakashipu’s death.
+document_outline: |
+  The story of Hiranyakashipu and Prahlada, as described in the Puranas, revolves around the demon king Hiranyakashipu, who sought immortality through a boon granted by Brahma. The boon made him nearly invincible by ensuring that he could not be killed by any man, beast, weapon, or under specific conditions. However, his son Prahlada, a devoted follower of Vishnu, refused to worship him as a god. This enraged Hiranyakashipu, leading him to attempt Prahlada’s death multiple times, including an incident where his sister Holika tried to burn Prahlada, but perished instead. Ultimately, Vishnu appeared as Narasimha (half-human, half-lion) and killed Hiranyakashipu by circumventing the conditions of his boon, restoring cosmic balance and freeing the three worlds from his tyranny.
+document:
+  repo: https://github.com/Kalyani5744/instructlab-knowledge-docs.git
+  commit: 7aeec30d7d99f5743e89d5333f2835b69a8836ac
+  patterns:
+    - karnudu.md
+    - karnudu.pdf
+    - "*.md"
+    - "*.pdf"
+    - "taxonomy/*.md"
